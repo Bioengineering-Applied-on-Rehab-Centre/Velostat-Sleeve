@@ -1,0 +1,18 @@
+Bill of Materials so far
+
+We are going to need 2 MUX with 16 channels each to create the 32 points grid map
+https://www.robobuilders.com.br/produto/modulo-multiplexador-cd74hc4067.html
+
+Now, we are going to need a microcontroller with at least 10 digital pins and 2 analog pins. 
+I suggest using an ESP8266 or ESP32 because they operate at high clock frequencies and have other functionalities that may be useful. 
+The only problem is that they work at 3.3V, which is lower than the operational voltage of the CD74HC4067, and will require additional power adaptations.
+Another option is to use an Arduino Nano board, which operates at 5V. However, it is a very basic board, and adding other functionalities may be more difficult later on.
+
+Additional materials may be:
+
+3mm Copper tape for the matrix building
+
+Velostat to act like the variable dieletric
+
+Ultrathin wire to make conections without hurting the user
+https://shorturl.at/1KGwb 
